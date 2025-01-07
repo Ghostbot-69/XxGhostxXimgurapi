@@ -1,11 +1,25 @@
 {
   "name": "imgur-api",
   "version": "1.0.0",
+  "description": "API for uploading images to Imgur",
   "main": "index.js",
-  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XxGhostxX",
+  "license": "ISC",
   "dependencies": {
     "axios": "^1.7.9",
-    "dotenv": "^16.4.7",
     "express": "^4.21.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ghostbot-69/XxGhostxXimgurapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ghostbot-69/XxGhostxXimgurapi/issues"
+  },
+  "homepage": "https://github.com/Ghostbot-69/XxGhostxXimgurapi#readme"
 }
